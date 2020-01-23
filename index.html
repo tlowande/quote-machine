@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Donald Trump quote-machine</title>
+    <link rel="icon" href="trump.ico" />
   </head>
   <body>
+    <canvas id="canvas"></canvas>
+    <!-- <h1>Click Anywhere</h1> -->
     <main class="app">
       <p>
+        <!-- <div class="circular--landscape"> -->
         <img
-          alt=""
+          alt="Donald Trump Thumbs up"
           src="https://github.com/robgmerrill/online-course-images/blob/master/quote-machine.jpg?raw=true"
         />
+        <!-- </div> -->
       </p>
       <section class="quotes">
         <blockquote class="quote-text"></blockquote>
@@ -22,5 +27,7 @@
         <button type="button" class="new-quote button">More Donald</button>
       </section>
     </main>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
